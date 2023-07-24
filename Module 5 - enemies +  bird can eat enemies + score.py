@@ -8,7 +8,7 @@ class Enemy():
         #Make the Enemy's variables
         self.x = x
         self.y = y
-        self.pic = pygame.image.load("../assets/mos.png")
+        self.pic = pygame.image.load("assets/mos.png")
         self.speed = speed
         self.size = size
         self.hitbox = pygame.Rect(self.x, self.y, int(self.size*1.25), self.size)
@@ -37,8 +37,8 @@ screen = pygame.display.set_mode((game_width, game_height))
 clock = pygame.time.Clock()
 running = True
 
-background = pygame.image.load("../assets/background.png")
-player = pygame.image.load("../assets/bird.png")
+background = pygame.image.load("assets/background.png")
+player = pygame.image.load("assets/bird.png")
 
 player_x = 15
 
